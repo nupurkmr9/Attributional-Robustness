@@ -1,7 +1,7 @@
-# Attributional-Robustness
-Training methodology for obtaining attributional robustness and its application in the area of weakly supervised object localization
+# Attributional-Robustness-Training
+Training methodology for attributional robustness and its application in weakly supervised object localization
 
-Our code is derived from the code base of [Attention-based Dropout Layer for Weakly Supervised Object Localization](https://github.com/junsukchoe/ADL) and [A Closer Look at Few-shot Classification](https://github.com/wyharveychen/CloserLookFewShot) 
+Code for paper: Attributional Robustness Training using Input-Gradient Spatial Alignment (ECCV 2020)
 
 ### Requirements
 - Python 3.6
@@ -23,15 +23,20 @@ python cifar_robust_train.py
     python eval_model.py 
 
 
-### Running code on CUB for WSOL
+### Running code on CUB-200 for WSOL
 ------------
 ```
-cd WSOL_CUB/datalist/
-wget http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz
-tar -xvf CUB_200_2011.tgz
-cd ..
+cd WSOL_CUB
+bash scripts/prepare_dataset.sh
 bash scripts/run_resnet_beta.sh
 ```
+**Evaluation**
+```
+bash scripts/eval_resnet_beta.sh
+```
 
+### Pretrained models on CIFAR-10 and CUB-200
 
+CIFAR-10: [https://drive.google.com/file/d/1Xjn3kX_Lh887eIKicWhZFBtgRgKpCg6q/view?usp=sharing](hhttps://drive.google.com/file/d/1Xjn3kX_Lh887eIKicWhZFBtgRgKpCg6q/view?usp=sharing)
 
+CUB-200: [https://drive.google.com/file/d/1LMUDHh6deCQ54mpVNqXQnYXXuIiAruzv/view?usp=sharing](https://drive.google.com/file/d/1LMUDHh6deCQ54mpVNqXQnYXXuIiAruzv/view?usp=sharing)
