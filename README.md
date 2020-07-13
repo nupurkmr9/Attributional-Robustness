@@ -37,6 +37,6 @@ bash scripts/eval_resnet_beta.sh
 
 ### Pretrained models on CIFAR-10 and CUB-200
 
-CIFAR-10: [https://drive.google.com/file/d/1Xjn3kX_Lh887eIKicWhZFBtgRgKpCg6q/view?usp=sharing](hhttps://drive.google.com/file/d/1Xjn3kX_Lh887eIKicWhZFBtgRgKpCg6q/view?usp=sharing)
+CIFAR-10: [https://drive.google.com/file/d/1Xjn3kX_Lh887eIKicWhZFBtgRgKpCg6q/view?usp=sharing](https://drive.google.com/file/d/1Xjn3kX_Lh887eIKicWhZFBtgRgKpCg6q/view?usp=sharing)
 
 CUB-200: [https://drive.google.com/file/d/1LMUDHh6deCQ54mpVNqXQnYXXuIiAruzv/view?usp=sharing](https://drive.google.com/file/d/1LMUDHh6deCQ54mpVNqXQnYXXuIiAruzv/view?usp=sharing)
